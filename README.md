@@ -3,7 +3,7 @@ Code (HTML and CSS) for xenathorstudios.com
 
 TODO
 
--Use stylesheet and new layout for all other .html files
+-Finish about.html
 
 -Upload finished pages to server
 

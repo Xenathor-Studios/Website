@@ -5,8 +5,9 @@
 
 	<head>
 		<title>Xenathor Studios</title>
-		<link rel="stylesheet" type="text/css" href="XS_stylesheet.css" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="XS_stylesheet.css">
+		<!--<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
 	</head>
 	
 	<body>
@@ -20,6 +21,9 @@
 					<li><a href="games.html">Games</a></li>
 					<li><a href="about.html">About</a></li>
 				</ul>
+				<!--<a href="javascript:void(0);" class="icon" onclick="responseNav()">
+					<i class="fa fa-bars"></i>
+				</a>-->
 			</div>
 			<div class="header_img">
 				<img id="header_img" src="Xenathor_Studios_Banner.png" alt="Xenathor Studios Banner">
@@ -34,7 +38,7 @@
 				<h3>[09/03/19] Site Update!</h3>
 				<h4>~Maxwell</h4>
 				<p>Welcome to the new Xenathor Studios website! I redesigned the site to have a more professional look and also reorganized how the site's files
-					themselves are set up. However, I'm still working on making it mobile-friendly.Finally, The Phantom's Castle and Crystal Gardens pages have
+					themselves are set up. However, I'm still working on making it mobile-friendly. Finally, The Phantom's Castle and Crystal Gardens pages have
 					been removed from this site. I will be relocating them to my personal site (mdragon.us) as soon as I get that set up. In the meantime,
 					downloading it will not be possible. I apologize for the inconvenience.</p>
 			</div>
@@ -67,6 +71,16 @@
   ga('create', 'UA-67199613-1', 'auto');
   ga('send', 'pageview');
 		</script>
+<!--		<script>
+		function responseNav() {
+			var x = document.getElementById("topnav");
+			if(x.className === "nav") {
+				x.className += "responsive";
+			} else {
+				x.className = "nav";
+			}
+		}
+		</script>-->
 	</body>
 	
 </html>

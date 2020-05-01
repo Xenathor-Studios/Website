@@ -261,9 +261,9 @@ footer, div.nav {
 
 /*For mobile*/
 @media only screen and (max-width: 767px) {
-	* { width: auto; }
+	* { width: auto; padding: 0px; }
 	#nav_img { float: none; display: flex; justify-content: center; flex-direction: column; }
-	div.nav ul li.right, div.nav ul li { float: none; margin-left: auto; margin-right: auto; padding: 0px; }
-	footer, div.nav { text-align: center; display: block; padding: 0px; }
+	div.nav ul li.right, div.nav ul li { float: none; margin-left: auto; margin-right: auto; }
+	footer, div.nav { text-align: center; display: block; }
 	#contact, #author { display: block; float:none; flex-direction: column; margin-left: auto; margin-right: auto; }
 }

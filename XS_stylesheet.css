@@ -39,7 +39,7 @@ div.header_img_container {
 }
 
 #nav_img {
-	width: 100%;
+	width: auto;
 	margin-right: 01.041666666666666666666666666667%;
 	float: left;
 }

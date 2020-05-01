@@ -34,14 +34,18 @@ div.header_img_container {
 #header_img {
 	width: 100%;
 	height: auto;
-	padding: 0px;
-	margin: 0%;
+	margin-bottom: -0.25%;
+	margin-top: -0.35%
 }
 
 #nav_img {
 	width: auto;
 	margin-right: 01.041666666666666666666666666667%;
 	float: left;
+}
+
+div.nav {
+	height: 64px;
 }
 
 div.nav .icon {
@@ -263,6 +267,7 @@ footer, div.nav {
 @media only screen and (max-width: 767px) {
 	* { width: auto; padding: 0px; }
 	#nav_img { float: none; display: flex; justify-content: center; flex-direction: column; }
+	div.nav { height: auto; }
 	div.nav ul li.right, div.nav ul li { float: none; margin-left: auto; margin-right: auto; }
 	footer, div.nav { text-align: center; display: block; }
 	#contact, #author { display: block; float:none; flex-direction: column; margin-left: auto; margin-right: auto; }

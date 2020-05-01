@@ -36,10 +36,10 @@ div.header_img_container {
 	height: auto;
 	padding: 0px;
 	margin: 0%;
-	object-fit: contain;
 }
 
 #nav_img {
+	width: 100%;
 	margin-right: 01.041666666666666666666666666667%;
 	float: left;
 }
@@ -261,9 +261,9 @@ footer, div.nav {
 
 /*For mobile*/
 @media only screen and (max-width: 767px) {
-	* {width: 100%;}
-	#nav_img {float: none; display: flex; justify-content: center; flex-direction: column;}
-	div.nav ul li.right, div.nav ul li {float: none; margin-left: auto; margin-right: auto;}
-	footer, div.nav {text-align: center; display: block;}
-	#contact, #author {display: block; float:none; flex-direction: column; margin-left: auto; margin-right: auto;}
+	* { width: auto; }
+	#nav_img { float: none; display: flex; justify-content: center; flex-direction: column; }
+	div.nav ul li.right, div.nav ul li { float: none; margin-left: auto; margin-right: auto; padding: 0px; }
+	footer, div.nav { text-align: center; display: block; padding: 0px; }
+	#contact, #author { display: block; float:none; flex-direction: column; margin-left: auto; margin-right: auto; }
 }
